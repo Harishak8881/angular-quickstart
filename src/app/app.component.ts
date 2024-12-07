@@ -9,9 +9,11 @@ export class AppComponent {
   title = 'Dr. Vinayak';
 
   name:string="Dr. Vinayak Kalasada";
-  qualification:string="BUMS";
-  phoneNum:string="6360691445";
+  qualification:string="BUMS, Md";
+  phoneNum:string="+91 6360691445";
 
-  imagePath:string="../assets/CollegeLogo.jpeg";
+  imageCollegeLogo:string="../assets/NIUMLogo.jpeg";
+  
+  imagePhoneLogo:string="../assets/PhoneIcon.png";
 
 }
