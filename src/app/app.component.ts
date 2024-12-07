@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['../demo-styling.css']
 })
 export class AppComponent {
-  title = 'angular-quickstart';
+  title = 'Dr. Vinayak';
+
+  name:string="Dr. Vinayak Kalasada";
+  qualification:string="BUMS";
+  phoneNum:string="6360691445";
+
+  imagePath:string="../assets/CollegeLogo.jpeg";
+
 }
